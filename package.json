@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack server",
-    "build": "cross-env NODE_ANV=production webpack"
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "dependencies": {
     "@babel/preset-react": "^7.14.5",
